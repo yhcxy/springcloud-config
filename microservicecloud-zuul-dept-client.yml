@@ -20,7 +20,9 @@ info:
   build.artifactId: $project.artifactId$
   build.version: $project.version$
 
-
+zuul:
+  prefix: preDept
+  
 zuul:
   routes:
     mydept.serviceId: microservicecloud-config-dept-client
