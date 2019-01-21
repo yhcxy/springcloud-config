@@ -25,7 +25,7 @@ zuul:
   routes:
     mydept.serviceId: microservicecloud-config-dept-client
     mydept.path: /mydept/**
-  prefix: preDept
+  prefix: /preDept
     #简洁写法：
    # microservicecloud-config-dept-client.path:  /mydept/**
 management:
