@@ -30,3 +30,7 @@ zuul:
 management:
   security:
     enabled: false
+zuul:
+  SendResponseFilter:
+    post:
+      disable: true
