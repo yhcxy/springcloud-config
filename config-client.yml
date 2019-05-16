@@ -1,2 +1,6 @@
 server:
   port: 8083
+spring:
+  profiles: dev #开发环境
+  application:
+    name: congig-dev
